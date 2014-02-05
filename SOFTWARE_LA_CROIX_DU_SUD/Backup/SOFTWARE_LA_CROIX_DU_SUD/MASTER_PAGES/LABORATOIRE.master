@@ -1,0 +1,78 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="LABORATOIRE.master.cs"
+    Inherits="LABORATOIRE" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" style="scrollbar-arrow-color: #1e90ff;
+    scrollbar-face-color: White; scrollbar-3dlight-color: #1e90ff; scrollbar-base-color: #1e90ff;
+    scrollbar-darkshadow-color: Black; scrollbar-shadow-color: Blue;">
+<head runat="server">
+    <title>Master labo</title>
+</head>
+<body style="scrollbar-arrow-color: #1e90ff; scrollbar-face-color: White;" leftmargin="0"
+    topmargin="0" bottommargin="0" rightmargin="0">
+    <form id="form1" runat="server">
+        <div>
+            <table border="0" cellpadding="0" cellspacing="0" style="width: 1000px; height: 100%">
+                <tr>
+                    <asp:Image runat="server" ImageUrl="../IMAGES_PROJET/sidebar_header_GOOD_Laboratoire.jpg" ID="Image1" /></tr>
+                <tr>
+                    <td style="width: 110px; height: 2px">
+                        <asp:Label ID="Label1" runat="server" Style="font-weight: bold; font-size: x-small;
+                            text-transform: capitalize; color: #ff9933; font-family: 'Comic Sans MS', Fantasy;
+                            text-decoration: underline" Text="Label" Width="42px"></asp:Label>
+                        <asp:LoginName ID="LoginName1" runat="server" Style="font-weight: bold; font-size: x-small;
+                            text-transform: capitalize; color: #0099cc; font-family: 'Comic Sans MS', Fantasy"
+                            ForeColor="DodgerBlue" />
+                    </td>
+                    <td style="height: 1px; text-align: left; width: 700px; border-bottom-width: thin;
+                        border-bottom-color: #0099ff; border-top-style: none; border-right-style: none;
+                        border-left-style: none;">
+                        <asp:SiteMapPath ID="SiteMapPath1" runat="server" Font-Bold="True" Font-Names="Verdana"
+                            Font-Size="X-Small" PathSeparator=" ->" Width="327px">
+                            <PathSeparatorStyle Font-Bold="True" ForeColor="#0000C0" />
+                            <CurrentNodeStyle ForeColor="#333333" />
+                            <NodeStyle Font-Bold="True" ForeColor="DodgerBlue" />
+                            <RootNodeStyle Font-Bold="True" ForeColor="Blue" />
+                        </asp:SiteMapPath>
+                        <%--<asp:SiteMapPath ID="SiteMapPath1" runat="server" Font-Bold="True" Font-Names="Verdana"
+                            Font-Size="X-Small" PathSeparator=" ->">
+                            <PathSeparatorStyle Font-Bold="True" ForeColor="#990000" />
+                            <CurrentNodeStyle ForeColor="#333333" />
+                            <NodeStyle Font-Bold="True" ForeColor="DodgerBlue" BackColor="ButtonHighlight" />
+                            <RootNodeStyle Font-Bold="True" ForeColor="#FF8000" />
+                        </asp:SiteMapPath>--%>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 110px; height: 300px; font-weight: bold; vertical-align: top; color: #1e90ff;
+                        font-family: Verdana; text-align: left; border-right: dodgerblue thin solid;
+                        border-top: dodgerblue thin solid; font-size: small; border-left: dodgerblue thin solid;
+                        border-bottom: dodgerblue thin solid;">
+                        <asp:Image runat="server" ImageUrl="../IMAGES_PROJET/bg-menu-main.png" ID="Image2"
+                            Height="352px" Width="251px" /><marquee style="overflow-y: scroll; position: relative;
+                                scrollbar-3dlight-color: DodgerBlu; scrollbar-face-color: White; left: 0px; top: 0px;
+                                background-color: aliceblue; width: 241px; padding-left: 10px;" direction="up"
+                                runat="server" truespeed="truespeed" id="marquee_ID">
+                                <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/DOCTEUR/CONSULTATION.aspx"
+                                    Width="171px" Font-Bold="True" Font-Names="Cambria" Font-Size="XX-Small" ForeColor="RoyalBlue">Vous etes connecté en tant que : </asp:HyperLink><asp:LoginName
+                                        ID="LoginName2" runat="server" Font-Bold="True" Font-Names="Cambria" Font-Size="XX-Small"
+                                        ForeColor="#FF8080" Width="62px" />
+                            </marquee>
+                    </td>
+                    <td style="height: 355px; width: 90%; vertical-align: top; text-align: left; font-size: x-small;
+                        font-family: Cambria; border-right: dodgerblue thin solid; border-top: dodgerblue thin solid;
+                        border-bottom: dodgerblue thin solid;">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="1" style="height: 18px; text-align: center;">
+                        <strong><span style="font-weight: normal; font-size: xx-small; color: black; font-family: Arial, Sans-Serif;
+                            border-bottom-color: #ff9900; border-top: dodgerblue thin solid; border-right-width: thin;
+                            border-right-color: #1e90ff;">copyright © 2008, La Croix du Sud.</span></strong></td>
+                </tr>
+            </table>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="LOGIN.master.cs" Inherits="LOGIN" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" style="scrollbar-arrow-color: #1e90ff;
+    scrollbar-face-color: White; scrollbar-3dlight-color: #1e90ff; scrollbar-base-color: #1e90ff;
+    scrollbar-darkshadow-color: Black; scrollbar-shadow-color: Blue;">
+<head runat="server">
+    <title>LOGIN MASTER PAGE</title>
+<script language="javascript" type="text/javascript">
+<!--
+
+function TABLE1_onclick() {
+
+}
+
+// -->
+</script>
+</head>
+<body style="scrollbar-arrow-color: #1e90ff; scrollbar-face-color: White;" leftmargin="0"
+    topmargin="0" bottommargin="0" rightmargin="0">
+    <form id="form1" runat="server">
+        <div>
+            <table border="0" cellpadding="0" cellspacing="0" style="width: 100%; height: 100%" id="TABLE1" language="javascript" onclick="return TABLE1_onclick()">
+                <tr>
+                    <asp:Image runat="server" ImageUrl="../IMAGES_PROJET/sidebar_header_GOOD_Connexion.jpg"
+                        ID="Image2" Height="84px" Width="1011px" /></tr>
+                <tr>
+                    <td style="width: 128px; height: 3px">
+                        &nbsp;</td>
+                    <td style="width: 950px; height: 3px; text-align: left">
+                        &nbsp;&nbsp;
+                    </td>
+                    <td style="width: 128px; height: 3px">
+                        &nbsp;</td>
+                </tr>
+                <tr>
+                    <td style="height: 393px; width: 128px; vertical-align: top; text-align: right;">
+                        <asp:Image runat="server" ImageUrl="~/IMAGES_PROJET/bg-menu-main.png" Height="533px"
+                            ID="Image1" Width="233px" /></td>
+                    <td style="width: 950px; height: 393px; vertical-align: top; text-align: left;">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                    <td style="height: 393px; width: 128px; vertical-align: top; text-align: right;">
+                        <asp:Image runat="server" ImageUrl="~/IMAGES_PROJET/bg-menu-main.png" Height="533px"
+                            ID="Image3" Width="233px" /></td>
+                </tr>
+                <tr>
+                    <td colspan="3" style="height: 22px; text-align: center">
+                        <span lang="FR" style="font-size: 7pt; color: #000000; font-family: Arial">copyright
+                            © 2008, La Croix du Sud.</span></td>
+                </tr>
+            </table>
+        </div>
+    </form>
+</body>
+</html>

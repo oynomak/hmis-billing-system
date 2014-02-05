@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="SOFTWARE_LA_CROIX_DU_SUD">
+</Property><Property Name="Solution File" Value="C:\Users\Kamonyo\Desktop\Tricky Soft\SOFTWARE_LA_CROIX_DU_SUD\SOFTWARE_LA_CROIX_DU_SUD.sln">
+</Property><Property Name="User Options File" Value="C:\Users\Kamonyo\Desktop\Tricky Soft\SOFTWARE_LA_CROIX_DU_SUD\SOFTWARE_LA_CROIX_DU_SUD.suo">
+</Property><Property Name="Date" Value="Wednesday, June 16, 2010">
+</Property><Property Name="Time" Value="11:06 AM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="SOFTWARE_LA_CROIX_DU_SUD.sln" Description="File successfully backed up as C:\Users\Kamonyo\Desktop\Tricky Soft\SOFTWARE_LA_CROIX_DU_SUD\Backup\SOFTWARE_LA_CROIX_DU_SUD.sln">
+</Event><Event ErrorLevel="0" Project="" Source="SOFTWARE_LA_CROIX_DU_SUD.suo" Description="File successfully backed up as C:\Users\Kamonyo\Desktop\Tricky Soft\SOFTWARE_LA_CROIX_DU_SUD\Backup\SOFTWARE_LA_CROIX_DU_SUD.suo">
+</Event><Event ErrorLevel="1" Project="SOFTWARE_LA_CROIX_DU_SUD" Source="..\SOFTWARE_LA_CROIX_DU_SUD" Description="Warning: The project file is being backed up to a relative path that differs from the original solution relative path.  The difference in folder hierarchy may create problems in opening or building the backed up solution and project.">
+</Event><Event ErrorLevel="0" Project="" Source="SOFTWARE_LA_CROIX_DU_SUD.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="SOFTWARE_LA_CROIX_DU_SUD.sln" Description="Converted">
+</Event></UpgradeLog>

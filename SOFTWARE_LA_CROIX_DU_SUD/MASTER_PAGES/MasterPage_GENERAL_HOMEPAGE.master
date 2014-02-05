@@ -1,0 +1,100 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage_GENERAL_HOMEPAGE.master.cs"
+    Inherits="MASTER_PAGES_MasterPage_GENERAL_HOMEPAGE" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" style="scrollbar-arrow-color: #1e90ff;
+    scrollbar-face-color: White; scrollbar-3dlight-color: #1e90ff; scrollbar-base-color: #1e90ff;
+    scrollbar-darkshadow-color: Black; scrollbar-shadow-color: Blue;">
+<head runat="server">
+    <title>Untitled Page</title>
+</head>
+<body leftmargin="0" topmargin="0" bottommargin="0" rightmargin="0">
+    <form id="form1" runat="server">
+        <table border="0" cellpadding="0" cellspacing="0" style="width: 100%; height: 100%">
+            <tr>
+                <asp:Image ID="Image1" runat="server" ImageUrl="~/IMAGES_PROJET/sidebar_header_GOOD_Revised_HomePage.jpg" /></tr>
+            <tr>
+                <td style="background-color: aliceblue; width: 167px;">
+                    <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+                </td>
+                <td style="height: 1px; text-align: left; width: 715px; vertical-align: top; background-color: aliceblue;">
+                    <asp:Menu ID="Menu2" runat="server" Style="font-size: x-small; background-color: aliceblue;
+                        font-weight: bold; text-transform: capitalize; font-family: Arial, Sans-Serif;
+                        vertical-align: top; text-align: left; border-right: dodgerblue thin solid; border-top: dodgerblue thin solid;
+                        border-left: dodgerblue thin solid; border-bottom: dodgerblue thin solid;" Orientation="Horizontal"
+                        Width="718px" Font-Bold="True" Font-Size="0.8em" ForeColor="#7C6F57" Height="1px"
+                        DataSourceID="SiteMapDataSource1" StaticDisplayLevels="2" BackColor="#F7F6F3"
+                        DynamicHorizontalOffset="2" Font-Names="Verdana" StaticSubMenuIndent="10px">
+                        <Items>
+                            <asp:MenuItem Text="Admistration" Value="Admistration" NavigateUrl="~/ADMINISTRATOR/Administration_Page.aspx">
+                            </asp:MenuItem>
+                            <asp:MenuItem Text="reception" Value="reception" NavigateUrl="~/REGISTRATION/Reception_Page.aspx">
+                            </asp:MenuItem>
+                            <asp:MenuItem Text="Medecins" Value="Medecins" NavigateUrl="~/DOCTEUR/Medecins_Page.aspx">
+                            </asp:MenuItem>
+                            <asp:MenuItem Text="Nurses" Value="Nurses" NavigateUrl="~/INFIRMIERES/Nurses_Page.aspx">
+                            </asp:MenuItem>
+                            <asp:MenuItem Text="laboratoire" Value="laboratoire" NavigateUrl="~/LABORANTIN/Laboratory_Page.aspx">
+                            </asp:MenuItem>
+                            <asp:MenuItem Text="Finance" Value="Finance" NavigateUrl="~/CAISSIERE/Finance_Page.aspx">
+                            </asp:MenuItem>
+                        </Items>
+                        <DynamicHoverStyle BackColor="DodgerBlue" Font-Bold="True" ForeColor="White" BorderColor="White"
+                            Font-Names="Cambria" Font-Size="XX-Small" />
+                        <StaticSelectedStyle BackColor="DodgerBlue" Font-Bold="True" Font-Italic="True" ForeColor="White"
+                            BorderColor="White" Font-Names="Cambria" Font-Size="XX-Small" />
+                        <DynamicSelectedStyle BackColor="DodgerBlue" ForeColor="White" BorderColor="White"
+                            Font-Names="Cambria" Font-Size="XX-Small" />
+                        <StaticHoverStyle BackColor="DodgerBlue" ForeColor="White" BorderColor="White" Font-Names="Cambria"
+                            Font-Size="XX-Small" />
+                        <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" BackColor="White"
+                            ForeColor="DodgerBlue" Font-Names="Cambria" Font-Size="XX-Small" />
+                        <DynamicMenuStyle BackColor="White" BorderColor="DodgerBlue" />
+                        <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" BackColor="White"
+                            ForeColor="DodgerBlue" BorderColor="DodgerBlue" Font-Names="Cambria" Font-Size="XX-Small" />
+                        <StaticMenuStyle BackColor="White" BorderColor="DodgerBlue" />
+                    </asp:Menu>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2" style="vertical-align: top; text-align: left; background-image: url(IMAGES_PROJET/bg-menu-main.png);">
+                    <asp:TreeView ID="TreeView1" runat="server" ImageSet="Inbox" ShowLines="True" Style="font-weight: bold;
+                        font-size: xx-small; text-transform: capitalize; font-family: Verdana" Width="194px">
+                        <ParentNodeStyle Font-Bold="False" />
+                        <HoverNodeStyle Font-Underline="True" ForeColor="White" />
+                        <SelectedNodeStyle Font-Underline="True" HorizontalPadding="0px" VerticalPadding="0px" />
+                        <Nodes>
+                            <asp:TreeNode NavigateUrl="~/Page_d_Accueil.aspx" Text="Page d'accueil" Value="Page d'accueil">
+                                <asp:TreeNode NavigateUrl="~/ADMINISTRATOR/Administration_Page.aspx" Text="administrator" Value="administrator"></asp:TreeNode>
+                                <asp:TreeNode NavigateUrl="~/REGISTRATION/Reception_Page.aspx" Text="Reception" Value="Reception">
+                                </asp:TreeNode>
+                                <asp:TreeNode NavigateUrl="~/CAISSIERE/Finance_Page.aspx" Text="Finance" Value="Finance">
+                                </asp:TreeNode>
+                                <asp:TreeNode NavigateUrl="~/DOCTEUR/Medecins_Page.aspx" Text="Docteur" Value="Docteur">
+                                </asp:TreeNode>
+                                <asp:TreeNode NavigateUrl="~/INFIRMIERES/Nurses_Page.aspx" Text="Nurses" Value="Nurses">
+                                </asp:TreeNode>
+                                <asp:TreeNode NavigateUrl="~/LABORANTIN/Laboratory_Page.aspx" Text="Laborantin" Value="Laborantin">
+                                </asp:TreeNode>
+                            </asp:TreeNode>
+                        </Nodes>
+                        <NodeStyle Font-Names="Verdana" Font-Size="8pt" ForeColor="White" HorizontalPadding="5px"
+                            NodeSpacing="2px" VerticalPadding="2px" />
+                    </asp:TreeView>
+                </td>
+                <td style="width: 715px; vertical-align: top; text-align: left; height: auto;">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                    &nbsp; &nbsp;
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" style="height: 33px; text-align: center;">
+                    <strong><span style="font-weight: normal; font-size: xx-small; color: black; font-family: Arial, Sans-Serif;
+                        border-right-width: thin; border-right-color: #1e90ff;">copyright © 2008, La Croix
+                        du Sud.</span> </strong>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

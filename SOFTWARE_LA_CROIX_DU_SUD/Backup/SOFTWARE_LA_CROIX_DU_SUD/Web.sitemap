@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap enableLocalization="true" xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0">
+	<siteMapNode url="~/Page d'accueil/Page_d_Accueil.aspx" title="Page d'accueil"  description="La page d'accueil">
+		<siteMapNode url="~/ADMINISTRATOR/Administration_Page.aspx" title="Administrator" description="La page de l'administrateur">
+			<siteMapNode url="~/ADMINISTRATOR/ASSUREUR.aspx" title="Assureur"  description="" />
+			<siteMapNode url="~/ADMINISTRATOR/ASSUREUR_TARIF_SERVICES.aspx" title="Tarif des assureurs"  description="" />
+			<siteMapNode url="~/ADMINISTRATOR/CATEG_SERVICES_RENDUS.aspx" title="Catégorie des servics rendus"  description="" />
+			<siteMapNode url="~/ADMINISTRATOR/CATEGORIE_DE_PATIENTS.aspx" title="Catégorie des patients" description="" />
+			<siteMapNode url="~/ADMINISTRATOR/CATEGORY_CHAMBRES.aspx" title="Catégorie des chambres"  description="" />
+			<siteMapNode url="~/ADMINISTRATOR/CATEGORY_PLAINTES.aspx" title="Catégorie des plaintes"  description="" />
+			<siteMapNode url="~/ADMINISTRATOR/CATEGORY_PRODUITS.aspx" title="Catégorie des produits"  description="" />
+			<siteMapNode url="~/ADMINISTRATOR/CATEGORY_SERVICE.aspx" title="Catégorie de services"  description="" />
+			<siteMapNode url="~/ADMINISTRATOR/CHAMBRES.aspx" title="Chambres"  description="" />
+			<siteMapNode url="~/ADMINISTRATOR/DEPARTMENT_LABO.aspx" title="Départment de labo"  description="" />
+			<siteMapNode url="~/ADMINISTRATOR/DESTINATION_HOPITAL.aspx" title="Hopital de destination"  description="" />
+			<siteMapNode url="~/ADMINISTRATOR/EXAMENS_FAITS_AU_LABO.aspx" title="Examens faits au labo"  description="" />
+			<siteMapNode url="~/ADMINISTRATOR/PLAINTES.aspx" title="Plaintes"  description="" />
+			<siteMapNode url="~/ADMINISTRATOR/SERVICES.aspx" title="Services"  description="" />
+			<siteMapNode url="~/ADMINISTRATOR/SERVICES_RENDUS.aspx" title="Services rendus"  description="" />
+			<siteMapNode url="~/ADMINISTRATOR/SIGNES_VITAUX.aspx" title="Signes vitaux"  description="" />
+			<siteMapNode url="~/ADMINISTRATOR/TYPE_D_ECHANTILLON.aspx" title="Type d'échantillons"  description="" />
+		</siteMapNode>
+		<siteMapNode url="~/REGISTRATION/Reception_Page.aspx" title="Reception" description="La page de réception">
+			<siteMapNode url="~/REGISTRATION/Add_PATIENTS.aspx" title="Ajouter un patient"  description="" />
+			<siteMapNode url="~/REGISTRATION/RENDEZ_VOUS_CONSULTATION.aspx" title="Rendez-vous"  description="" />
+		</siteMapNode>
+		<siteMapNode url="~/CAISSIERE/Finance_Page.aspx" title="Finance" description="La page des finances">
+			<siteMapNode url="~/CAISSIERE/FACTURATION.aspx" title="Facturation"  description="" />
+			<siteMapNode url="~/CAISSIERE/Page_De_Facturation_FACILITATRICE.aspx" title="Rapports"  description="" />
+		</siteMapNode>
+		<siteMapNode url="~/DOCTEUR/Medecins_Page.aspx" title="Docteurs" description="La page des Docteurs">
+			<siteMapNode url="~/DOCTEUR/CONSULTATION.aspx" title="Consultation"  description="" />
+			<siteMapNode url="~/DOCTEUR/HOSPITALISATION.aspx" title="Hospitalisation"  description="" />
+			<siteMapNode url="~/DOCTEUR/SORTIE_D_HOPITAL.aspx" title="Sortie d'hospitalisation"  description="" />
+			<siteMapNode url="~/DOCTEUR/SORTIE_DEL_HOSPITALISATION.aspx" title="Sortie d'hospitalisation"  description="" />
+			<siteMapNode url="~/DOCTEUR/TRAITEMENTS_CONSULTATION.aspx" title="Traitements"  description="" />
+			<siteMapNode url="~/DOCTEUR/TRANSFERTS.aspx" title="Transferts"  description="" />
+		</siteMapNode>
+		<siteMapNode url="~/INFIRMIERES/Nurses_Page.aspx" title="Infirmieres" description="La page des infirmieres">
+			<siteMapNode url="~/INFIRMIERES/FICHE_DE_SUIVIE.aspx" title="Fiche de suivi"  description="" />
+			<siteMapNode url="~/INFIRMIERES/HOSPITALISATION_NURSES.aspx" title="Hospitalisation"  description="" />
+			<siteMapNode url="~/INFIRMIERES/TRAITEMENT_SUIVIE.aspx" title="Traitements"  description="" />
+			<!--<siteMapNode url="~/INFIRMIERES/INFIRMIERE EN CHEF/FICHE_DE_SUIVIE.aspx" title="Fiche de suivi"  description="" />-->
+			<!--<siteMapNode url="~/INFIRMIERES/INFIRMIERE EN CHEF/HOSPITALISATION.aspx" title="Hospitalisation"  description="" />-->
+			<!--<siteMapNode url="~/INFIRMIERES/INFIRMIERE EN CHEF/TRAITEMENT_SUIVIE.aspx" title="Traitements"  description="" />-->
+		</siteMapNode>
+		<siteMapNode url="~/LABORANTIN/Laboratory_Page.aspx" title="Laborantin" description="La page de Labo">
+			<siteMapNode url="~/LABORANTIN/EXAMENS_A_FAIRE.aspx" title="Examens à faire"  description="" />
+			<siteMapNode url="~/LABORANTIN/RESULTATS_EXAMENS.aspx" title="Résultats des Examens"  description="" />
+		</siteMapNode>
+	</siteMapNode>
+</siteMap>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="Page_d_Accueil.aspx" title="Page d'accueil"  description="La page d'accueil">
+    <siteMapNode url="~/INFIRMIERES/Nurses_Page.aspx" title="La page principale des infirmiers" description="La page principale des infirmiers">
+      <siteMapNode url="~/INFIRMIERES/INFIRMIERE EN CHEF/FICHE_DE_SUIVIE.aspx" title=""  description="" />
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>

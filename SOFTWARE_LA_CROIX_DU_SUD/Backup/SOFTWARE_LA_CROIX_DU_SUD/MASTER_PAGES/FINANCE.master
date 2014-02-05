@@ -1,0 +1,70 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="FINANCE.master.cs" Inherits="FINANCE" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" style="scrollbar-arrow-color: #1e90ff;
+    scrollbar-face-color: White; scrollbar-3dlight-color:#1e90ff; scrollbar-base-color:#1e90ff; scrollbar-darkshadow-color:Black; scrollbar-shadow-color:Blue;">
+<head runat="server">
+    <title>Untitled Page</title>
+
+    <script language="javascript" type="text/javascript">
+<!--
+
+function TABLE1_onclick() {
+
+}
+
+// -->
+    </script>
+
+</head>
+<body style="scrollbar-arrow-color: #1e90ff; scrollbar-face-color: White;" leftmargin="0" topmargin="0" bottommargin="0" rightmargin="0">
+    <form id="form1" runat="server">
+            <table border="0" cellpadding="0" cellspacing="0" style="width: 100%; height: 100%"
+                id="TABLE1" language="javascript" onclick="return TABLE1_onclick()">
+                <tr>
+                    <asp:Image runat="server" ImageUrl="../IMAGES_PROJET/sidebar_header_GOOD_Finances.jpg" ID="Image1" /></tr>
+                <tr>
+                    <td style="width: 115px; height: 3px">
+                        <asp:Label ID="Label1" runat="server" Style="font-weight: bold; font-size: x-small;
+                            text-transform: capitalize; color: #ff9933; font-family: 'Comic Sans MS', Fantasy;
+                            text-decoration: underline" Text="caissier : "></asp:Label>
+                        <asp:LoginName ID="LoginName1" runat="server" Style="font-weight: bold; font-size: x-small;
+                            text-transform: capitalize; color: #0099cc; font-family: 'Comic Sans MS', Fantasy"
+                            Width="63px" />
+                    </td>
+                    <td style="height: 3px; text-align: left; width: 830px;">
+                        <asp:SiteMapPath ID="SiteMapPath1" runat="server" Font-Bold="True" Font-Names="Verdana"
+                            Font-Size="X-Small" PathSeparator=" ->" Width="327px">
+                            <PathSeparatorStyle Font-Bold="True" ForeColor="#0000C0" />
+                            <CurrentNodeStyle ForeColor="#333333" />
+                            <NodeStyle Font-Bold="True" ForeColor="DodgerBlue" />
+                            <RootNodeStyle Font-Bold="True" ForeColor="Blue" />
+                        </asp:SiteMapPath>
+                        <%--<asp:SiteMapPath ID="SiteMapPath1" runat="server" Font-Bold="True" Font-Names="Verdana"
+                            Font-Size="X-Small" PathSeparator=" ->">
+                            <PathSeparatorStyle Font-Bold="True" ForeColor="#990000" />
+                            <CurrentNodeStyle ForeColor="#333333" />
+                            <NodeStyle Font-Bold="True" ForeColor="#990000" />
+                            <RootNodeStyle Font-Bold="True" ForeColor="#FF8000" />
+                        </asp:SiteMapPath>--%>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 115px; height: 355px;
+                        vertical-align: top; text-align: left;">
+                        <asp:Image runat="server" ImageUrl="~/IMAGES_PROJET/bg-menu-main.png" ID="Image2" Height="522px" Width="200px" /></td>
+                    <td style="width: 830px; height:auto; vertical-align: top; text-align: left; border-top: dodgerblue thin solid;">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                        &nbsp;
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="height: 30px; text-align: center;">
+                        <strong><span style="font-weight: normal; font-size: 7pt; color: black; font-family: Arial, Sans-Serif;
+                            border-top: 1e90ff thin solid;">copyright © 2008, La Croix du Sud.</span></strong>
+                    </td>
+                </tr>
+            </table>
+    </form>
+</body>
+</html>

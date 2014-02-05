@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "C:\...\SOFTWARE_LA_CROIX_DU_SUD\", ".", "{E7F0147A-5CC8-404F-8322-7326A125E4FB}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.VirtualPath = "/SOFTWARE_LA_CROIX_DU_SUD"
+		Debug.AspNetCompiler.PhysicalPath = "G:\LA CROIX DU SUD\PROJET EN SOI\SOFTWARE_LA_CROIX_DU_SUD\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\SOFTWARE_LA_CROIX_DU_SUD\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/SOFTWARE_LA_CROIX_DU_SUD"
+		Release.AspNetCompiler.PhysicalPath = "G:\LA CROIX DU SUD\PROJET EN SOI\SOFTWARE_LA_CROIX_DU_SUD\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\SOFTWARE_LA_CROIX_DU_SUD\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "2184"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7F0147A-5CC8-404F-8322-7326A125E4FB}.Debug|.NET.ActiveCfg = Debug|.NET
+		{E7F0147A-5CC8-404F-8322-7326A125E4FB}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

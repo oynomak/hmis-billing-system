@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="Page_d_Accueil.aspx" title="Page d'accueil"  description="La page d'accueil">
+    <siteMapNode url="~/ADMINISTRATOR/Administration_Page.aspx" title="Administrator" description="La page de l'administrateur">
+      <siteMapNode url="~/ADMINISTRATOR/ADMINISTRATEURS/ASSUREUR.aspx" title="Assureur"  description="" />
+      <siteMapNode url="~/ADMINISTRATOR/ADMINISTRATEURS/ASSUREUR_TARIF_SERVICES.aspx" title="Tarif des assureurs"  description="" />
+      <siteMapNode url="~/ADMINISTRATOR/ADMINISTRATEURS/CATEG_SERVICES_RENDUS.aspx" title="Catégorie des servics rendus"  description="" />
+      <siteMapNode url="~/ADMINISTRATOR/ADMINISTRATEURS/CATEGORIE_DE_PATIENTS.aspx" title="Catégorie des patients" description="" />
+      <siteMapNode url="~/ADMINISTRATOR/ADMINISTRATEURS/CATEGORY_CHAMBRES.aspx" title="Catégorie des chambres"  description="" />
+      <siteMapNode url="~/ADMINISTRATOR/ADMINISTRATEURS/CATEGORY_PLAINTES.aspx" title="Catégorie des plaintes"  description="" />
+      <siteMapNode url="~/ADMINISTRATOR/ADMINISTRATEURS/CATEGORY_PRODUITS.aspx" title="Catégorie des produits"  description="" />
+      <siteMapNode url="~/ADMINISTRATOR/ADMINISTRATEURS/CATEGORY_SERVICE.aspx" title="Catégorie de services"  description="" />
+      <siteMapNode url="~/ADMINISTRATOR/ADMINISTRATEURS/CHAMBRES.aspx" title="Chambres"  description="" />
+      <siteMapNode url="~/ADMINISTRATOR/ADMINISTRATEURS/DEPARTMENT_LABO.aspx" title="Départment de labo"  description="" />
+      <siteMapNode url="~/ADMINISTRATOR/ADMINISTRATEURS/DESTINATION_HOPITAL.aspx" title="Hopital de destination"  description="" />
+      <siteMapNode url="~/ADMINISTRATOR/ADMINISTRATEURS/EXAMENS_FAITS_AU_LABO.aspx" title="Examens faits au labo"  description="" />
+      <siteMapNode url="~/ADMINISTRATOR/ADMINISTRATEURS/PLAINTES.aspx" title="Plaintes"  description="" />
+      <siteMapNode url="~/ADMINISTRATOR/ADMINISTRATEURS/SERVICES.aspx" title="Services"  description="" />
+      <siteMapNode url="~/ADMINISTRATOR/ADMINISTRATEURS/SERVICES_RENDUS.aspx" title="Services rendus"  description="" />
+      <siteMapNode url="~/ADMINISTRATOR/ADMINISTRATEURS/SIGNES_VITAUX.aspx" title="Signes vitaux"  description="" />
+      <siteMapNode url="~/ADMINISTRATOR/ADMINISTRATEURS/TYPE_D_ECHANTILLON.aspx" title="Type d'échantillons"  description="" />
+      <siteMapNode url="~/ADMINISTRATOR/ADMINISTRATEURS/CREATE_USER.aspx" title="Créer un nouvel utilisateur"  description="Créer un nouvel utilisateur" />
+      <siteMapNode url="~/ADMINISTRATOR/ADMINISTRATEURS/PasswordRecovery.aspx" title="Changer/retrouver le mot de passe"  description="Changer/retrouver le mot de passe" />
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>

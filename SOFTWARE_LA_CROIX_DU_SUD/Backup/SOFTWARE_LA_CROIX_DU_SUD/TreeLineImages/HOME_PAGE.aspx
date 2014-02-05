@@ -1,0 +1,1 @@
+<%@ Page Language="C#" MasterPageFile="~/MASTER_PAGES/MasterPage_CONFIG_SYSTEM.master" AutoEventWireup="true" CodeFile="HOME_PAGE.aspx.cs" Inherits="HOME_PAGE" Title="LA PAGE D'ACCUEIL" MaintainScrollPositionOnPostback="true"%>

@@ -1,0 +1,27 @@
+﻿body
+{
+}
+
+#kamonyo_menu
+{
+	background-image: url(IMAGES_PROJECT/bg-menu-main.png);
+	background-repeat: no-repeat;
+	background-position: top;
+	background-attachment: inherit;
+	height: 500px;
+	width: auto;
+}
+#kumalax
+{
+	scrollbar-arrow-color: #1e90ff;
+	scrollbar-face-color: White;
+	scrollbar-3dlight-color: #1e90ff;
+	scrollbar-base-color: #1e90ff;
+	scrollbar-darkshadow-color: Black;
+	scrollbar-shadow-color: Blue;
+}
+#contentAlignment
+{
+	text-align:left;
+	width:400px;
+}

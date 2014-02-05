@@ -1,0 +1,105 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage_ADMINISTRATOR.master.cs"
+    Inherits="MASTER_PAGES_MasterPage_ADMINISTRATOR" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" style="scrollbar-arrow-color: #1e90ff;
+    scrollbar-face-color: White; scrollbar-3dlight-color: #1e90ff; scrollbar-base-color: #1e90ff;
+    scrollbar-darkshadow-color: Black; scrollbar-shadow-color: Blue;">
+<head runat="server">
+    <title>Administrator</title>
+</head>
+<body leftmargin="0" topmargin="0" bottommargin="0" rightmargin="0">
+    <form id="form1" runat="server">
+        <div style="text-align: center">
+            <table border="0" cellpadding="0" cellspacing="0" style="width: 1250px; vertical-align: top;
+                text-align: left;">
+                <tr>
+                    <td style="width: 1250px; vertical-align: top; text-align: left; height: 100px;"
+                        colspan="3" background="../IMAGES_PROJET/sidebar_header_GOOD_Adminis.jpg">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 200px; vertical-align: middle; text-align: left; height: 5px;">
+                        <asp:Label ID="Label1" runat="server" Style="font-weight: bold; font-size: x-small;
+                            text-transform: capitalize; color: #ff9933" Text="utilisateur: " Width="54px"></asp:Label>
+                        <asp:LoginName ID="LoginName1" runat="server" Style="font-weight: bold; font-size: x-small;
+                            color: #0099cc" Width="70px" />
+                    </td>
+                    <td style="width: 850px; vertical-align: middle; text-align: left; height: 5px;">
+                        <asp:SiteMapPath ID="SiteMapPath1" runat="server" Font-Bold="True" Font-Names="Verdana"
+                            Font-Size="X-Small" PathSeparator=" ->" Width="650px">
+                            <PathSeparatorStyle Font-Bold="True" ForeColor="MidnightBlue" />
+                            <CurrentNodeStyle ForeColor="Black" />
+                            <NodeStyle Font-Bold="True" ForeColor="DodgerBlue" />
+                            <RootNodeStyle Font-Bold="True" ForeColor="#0000C0" />
+                        </asp:SiteMapPath>
+                    </td>
+                    <td style="width: 200px; vertical-align: middle; text-align: left; height: 5px;">
+                        <asp:LoginStatus ID="LoginStatus1" runat="server" Font-Bold="True" Font-Names="Verdana"
+                            Font-Size="X-Small" Font-Underline="True" ForeColor="Tomato" Width="58px" />
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 200px; vertical-align: top; text-align: left; height: 600px;" bgcolor="aliceblue">
+                        <asp:TreeView ID="TreeView1" runat="server" Height="421px" ImageSet="Inbox" ShowLines="True"
+                            Style="font-weight: bold; font-size: xx-small; text-transform: capitalize; font-family: Verdana"
+                            Width="200px">
+                            <ParentNodeStyle Font-Bold="False" />
+                            <HoverNodeStyle Font-Underline="True" ForeColor="DarkBlue" />
+                            <SelectedNodeStyle Font-Underline="True" HorizontalPadding="0px" VerticalPadding="0px" />
+                            <Nodes>
+                                <asp:TreeNode NavigateUrl="~/Page d'accueil/Page_d_Accueil.aspx" Text="Page d'accueil"
+                                    Value="Page d'accueil">
+                                    <asp:TreeNode NavigateUrl="~/ADMINISTRATOR/CREATE_USER.aspx" Text="Créer un nouvel utilisateur"
+                                        Value="Reception"></asp:TreeNode>
+                                    <asp:TreeNode NavigateUrl="~/ADMINISTRATOR/PasswordRecovery.aspx" Text="Rechercher mot de passe"
+                                        Value="Reception"></asp:TreeNode>
+                                    <asp:TreeNode NavigateUrl="~/ADMINISTRATOR/ASSUREUR.aspx" Text="Assureur" Value="Reception">
+                                    </asp:TreeNode>
+                                    <asp:TreeNode NavigateUrl="~/ADMINISTRATOR/ASSUREUR_TARIF_SERVICES.aspx" Text="Tarif des assureurs"
+                                        Value="none"></asp:TreeNode>
+                                    <asp:TreeNode NavigateUrl="~/ADMINISTRATOR/CATEG_SERVICES_RENDUS.aspx" Text="Catégorie des services rendus"
+                                        Value="Docteur"></asp:TreeNode>
+                                    <asp:TreeNode NavigateUrl="~/ADMINISTRATOR/CATEGORIE_DE_PATIENTS.aspx" Text="Catégorie des patients"
+                                        Value="Nurses"></asp:TreeNode>
+                                    <asp:TreeNode NavigateUrl="~/ADMINISTRATOR/CATEGORY_CHAMBRES.aspx" Text="Catégorie des chambres"
+                                        Value="Laborantin"></asp:TreeNode>
+                                    <asp:TreeNode NavigateUrl="~/ADMINISTRATOR/CATEGORY_PLAINTES.aspx" Text="Catégorie des plaintes"
+                                        Value="Reception"></asp:TreeNode>
+                                    <asp:TreeNode NavigateUrl="~/ADMINISTRATOR/CATEGORY_SERVICE.aspx" Text="Catégorie des services"
+                                        Value="Reception"></asp:TreeNode>
+                                    <asp:TreeNode NavigateUrl="~/ADMINISTRATOR/CHAMBRES.aspx" Text="Chambres" Value="Reception">
+                                    </asp:TreeNode>
+                                    <asp:TreeNode NavigateUrl="~/ADMINISTRATOR/EXAMENS_FAITS_AU_LABO.aspx" Text="Examens"
+                                        Value="Reception"></asp:TreeNode>
+                                    <asp:TreeNode NavigateUrl="~/ADMINISTRATOR/SERVICES_RENDUS.aspx" Text="Services rendus"
+                                        Value="Reception"></asp:TreeNode>
+                                    <asp:TreeNode NavigateUrl="~/ADMINISTRATOR/PRESCRIPTION.aspx" Text="Prescriptions"
+                                        Value="Reception"></asp:TreeNode>
+                                    <asp:TreeNode NavigateUrl="~/ADMINISTRATOR/PLAINTES.aspx" Text="Plaintes" Value="Reception">
+                                    </asp:TreeNode>
+                                </asp:TreeNode>
+                            </Nodes>
+                            <NodeStyle Font-Names="Verdana" Font-Size="8pt" ForeColor="darkblue" HorizontalPadding="5px"
+                                NodeSpacing="5px" VerticalPadding="2px" />
+                        </asp:TreeView>
+                    </td>
+                    <td style="width: 850px; vertical-align: top; text-align: center; height: 600px;">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                    <td style="width: 200px; vertical-align: top; text-align: left; height: 600px;" bgcolor="aliceblue">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 200px; vertical-align: middle; text-align: left; height: 5px;">
+                    </td>
+                    <td style="width: 850px; vertical-align: middle; text-align: center; height: 5px;">
+                        <span style="font-size: 7pt; font-family: Arial">copyright © 2008, La Croix du Sud.</span></td>
+                    <td style="width: 200px; vertical-align: middle; text-align: left; height: 5px;">
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </form>
+</body>
+</html>

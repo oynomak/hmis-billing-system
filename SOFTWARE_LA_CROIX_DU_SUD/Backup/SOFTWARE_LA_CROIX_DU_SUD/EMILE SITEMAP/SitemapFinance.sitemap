@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="Page_d_Accueil.aspx" title="Page d'accueil"  description="La page d'accueil">
+    <siteMapNode url="~/CAISSIERE/Finance_Page.aspx" title="La page principale des finances" description="La page principale des finances">
+      <siteMapNode url="~/CAISSIERE/FACTURATION.aspx" title="La page de facturation" description="La page de facturation" />
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>

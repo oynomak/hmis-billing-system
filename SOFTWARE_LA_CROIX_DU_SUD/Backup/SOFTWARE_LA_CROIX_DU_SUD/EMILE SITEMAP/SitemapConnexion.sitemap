@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="Page_d_Accueil.aspx" title="Page d'accueil"  description="La page d'accueil">
+    <siteMapNode url="~/Login.aspx" title="La page de connexion"  description="La page de connexion" />
+    <siteMapNode url="~/ADMINISTRATOR/WEB MASTER/PasswordRecovery.aspx" title="Password Recovery Page"  description="Password Recovery Page" />
+  </siteMapNode>
+</siteMap>

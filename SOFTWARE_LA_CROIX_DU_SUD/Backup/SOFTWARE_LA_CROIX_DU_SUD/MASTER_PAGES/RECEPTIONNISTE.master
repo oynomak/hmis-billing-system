@@ -1,0 +1,66 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="RECEPTIONNISTE.master.cs"
+    Inherits="ORIENTATION" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html id="kumalax" xmlns="http://www.w3.org/1999/xhtml" style="scrollbar-arrow-color: #1e90ff;
+    scrollbar-face-color: White; scrollbar-3dlight-color: #1e90ff; scrollbar-base-color: #1e90ff;
+    scrollbar-darkshadow-color: Black; scrollbar-shadow-color: Blue;">
+<head runat="server">
+    <title>Untitled Page</title>
+    <link href="../StyleSheet.css" rel="stylesheet" type="text/css" />
+</head>
+<body leftmargin="0" topmargin="0" bottommargin="0" rightmargin="0">
+    <form id="form1" runat="server">
+        <table border="0" cellpadding="0" cellspacing="0" style="width: 100%; height: 100%">
+            <tr>
+                <asp:Image runat="server" ImageUrl="~/IMAGES_PROJET/sidebar_header_GOOD_Reception.jpg" ID="Image1" /></tr>
+            <tr>
+                <td style="width: 132px; height: 1px; vertical-align: top; text-align: left;">
+                    <asp:Label ID="Label1" runat="server" Style="font-weight: bold; font-size: x-small;
+                        text-transform: capitalize; color: #ff9933" Text="utilisateur: " Width="54px"></asp:Label>
+                    <asp:LoginName ID="LoginName1" runat="server" Style="font-weight: bold; font-size: x-small;
+                        color: #0099cc" Width="70px" />
+                </td>
+                <td style="height: 1px; text-align: left; background-color: white; width: 724px;
+                    border-bottom-color: #1e90ff; border-bottom-style: solid; border-bottom-width: thin;">
+                    <asp:SiteMapPath ID="SiteMapPath1" runat="server" Font-Bold="True" Font-Names="Verdana"
+                        Font-Size="X-Small" PathSeparator=" ->" Width="588px">
+                        <PathSeparatorStyle Font-Bold="True" ForeColor="MidnightBlue" />
+                        <CurrentNodeStyle ForeColor="Black" />
+                        <NodeStyle Font-Bold="True" ForeColor="DodgerBlue" />
+                        <RootNodeStyle Font-Bold="True" ForeColor="#0000C0" />
+                    </asp:SiteMapPath>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 132px; height: 450px; font-weight: bold; vertical-align: top; text-transform: capitalize;
+                    color: #1e90ff; font-family: Verdana; text-align: left; border-right: dodgerblue thin solid;
+                    border-top: dodgerblue thin solid; border-left: dodgerblue thin solid; border-bottom: dodgerblue thin solid;">
+                    <asp:Image runat="server" ImageUrl="../IMAGES_PROJET/bg-menu-main.png" Height="374px"
+                        ID="Image2" Width="259px" /><marquee style="overflow-y: scroll; position: relative;
+                            scrollbar-3dlight-color: DodgerBlu; scrollbar-face-color: White; left: 0px; top: 0px;
+                            background-color: aliceblue; width: 249px; padding-left: 10px;" direction="up" runat="server" truespeed="truespeed"
+                            id="marquee_ID">
+                            <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/DOCTEUR/CONSULTATION.aspx"
+                                Width="150px" Font-Bold="True" Font-Names="Cambria" Font-Size="XX-Small" ForeColor="RoyalBlue">Vous etes connecté en tant que : </asp:HyperLink>
+                            <asp:LoginName ID="LoginName2" runat="server" Font-Bold="True" Font-Names="Cambria"
+                                Font-Size="XX-Small" ForeColor="#FF8080" />
+                        </marquee>
+                </td>
+                <td style="vertical-align: top; text-align: left; height: 343px; width: 724px; border-bottom-width: thin;
+                    border-bottom-color: #1E90FF; border-bottom-style: solid;">
+                    <asp:LoginStatus ID="LoginStatus1" runat="server" Style="font-weight: bold; font-size: small;
+                        color: #ff9933" Width="73px" />
+                    <br />
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" style="height: 17px; text-align: center;">
+                    <strong><span style="font-weight: normal; font-size: xx-small; color: black; font-family: Sans-Serif, Arial">
+                        copyright © 2008, La Croix du Sud.</span></strong></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

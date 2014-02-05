@@ -1,0 +1,104 @@
+﻿.button
+{
+	border-bottom-color:Green;
+	border-width:thin;
+	border-top-color:Blue;
+	background-color:Transparent;
+	border-left-color:Green;
+	border-right-color:Blue;
+}
+button
+{
+	
+	border-bottom-color:Green;
+	border-width:thin;
+	border-top-color:Blue;
+	background-color:Transparent;
+	border-left-color:Green;
+	border-right-color:Blue;
+}
+.align
+{
+ margin:auto;
+ padding-left:10px;
+}
+.header
+{	
+	background-position: left top;
+	background-repeat: no-repeat;
+	height:auto;
+	width:100%;
+}
+.logo
+{
+	float:left;
+	padding:.4em;
+}
+.slogan
+{
+	float:right;
+	padding-right:.4em;
+	text-align:center;
+	vertical-align:middle;
+	font-size:200%;
+	font-family:Calibri;
+	width:auto;
+	clear:right;
+}
+.wrapper
+{
+	border-style:double;
+	border-width:thin;
+	border-color:#999;
+	height:100%;
+	width:auto;
+	
+}
+.footer
+{
+	font-size:80%;
+	padding-top:1em;
+	text-align:center;
+	clear:both;
+	background-color:Transparent;
+	color:#999;
+	border-top-style:groove;
+	border-top-color:#999;
+	vertical-align:text-top;
+}
+.cbody{
+clear:both;
+padding-top:1em;
+border-top-style:groove;
+border-top-color:#999;
+height:auto;
+}
+.menu
+{
+	border-style:solid;
+	border-color:Green;
+	border-width:thin;
+	float:left;
+	width:28%;
+	height:100%;
+}
+.content
+{
+	width:70%;
+	border-style:none;
+}
+
+.textarea
+{
+	font-family:Callibri;
+	font-weight:bold;
+	text-align:center;
+}
+.search
+{
+	font-size:small;
+	left:75%;
+	background-position:right bottom;
+	position:absolute;
+	top:6em;
+}
